@@ -1,6 +1,6 @@
 # formatter
 
-This tool is developed by Wisdom Tool Organization.  
+This tool is developed by Wisdom Tool Foundation.  
 
 http://www.wisdomtool.org  
 
