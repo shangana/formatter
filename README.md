@@ -1,13 +1,13 @@
 # formatter
 
-This tool is developed by Wisdom Tool Foundation.  
+This tool is developed by individual.  
 
-Support formatting JSON, XML, HTML.  
+Support formatted JSON, XML, HTML.  
 
 Please contact by e-mail for any insightful feedbacks, feature requests and bugs.  
 
-Author: Dom Wang <br/>
-E-mail: witpool@outlook.com
+**Author:** Dom Wang <br/>
+**E-mail:** witpool@outlook.com
 
 ---------------------------------------------------------------------------------------------------------------------
 
