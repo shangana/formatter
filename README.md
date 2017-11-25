@@ -10,6 +10,14 @@ Please contact by e-mail for any insightful feedbacks, feature requests and bugs
 **E-mail:** witpool@outlook.com
 
 ---------------------------------------------------------------------------------------------------------------------
+#### 1. Download JAR: *`formatter-1.0.jar`*;
+   下载JAR包`formatter-1.0.jar`；
+
+#### 2. Install `Java 1.7` or higher version on Windows platform;
+   使用前请先安装`Java 1.7`或者更高版本；
+
+#### 3. Double click `formatter-1.0.jar` to launch GUI.
+   双击`formatter-1.0.jar`即可运行工具。
 
 ![image](https://github.com/wisdomtool/formatter/blob/master/Image_1.png)
 
