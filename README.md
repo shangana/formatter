@@ -4,6 +4,8 @@ This tool is developed by individual.
 
 Support formatted JSON, XML, HTML.  
 
+[Formatter](https://github.com/wisdomtool/formatter)是由个人所开发的一款格式化XML，JSON，HTML的小工具。
+
 Please contact by e-mail for any insightful feedbacks, feature requests and bugs.  
 
 **Author:** Dom Wang <br/>
