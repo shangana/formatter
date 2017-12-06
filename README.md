@@ -22,7 +22,7 @@ Please contact by e-mail for any insightful feedbacks, feature requests and bugs
 #### 3. Double click `formatter-1.0.jar` to launch GUI.
    双击`formatter-1.0.jar`即可运行工具。
 
-![image](https://github.com/wisdomtool/formatter/blob/master/Image_1.png)
+![Formatter GUI](https://github.com/wisdomtool/formatter/blob/master/Image_1.png)
 
 # Donations
 
@@ -30,7 +30,7 @@ Please contact by e-mail for any insightful feedbacks, feature requests and bugs
 
 If the **Formatter** helps you a lot, and you would like to support this tool's further development and the continuous maintenance of this tool. You can sweep the following QR code free to donate me, which asked me to have a cup of tea or coffee. Your donation is highly appreciated. ♥ Thank you ♥ <br/>
 
-![Donate by pay)](https://github.com/wisdomtool/rest-client/blob/master/images/donate_pay.png)
+![Donate by pay](https://github.com/wisdomtool/rest-client/blob/master/images/donate_pay.png)
 
 # Support
 
