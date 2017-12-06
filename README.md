@@ -1,4 +1,4 @@
-# formatter
+# About formatter
 
 This tool is developed by individual.  
 
@@ -11,7 +11,8 @@ Please contact by e-mail for any insightful feedbacks, feature requests and bugs
 **Author:** Dom Wang <br/>
 **E-mail:** witpool@outlook.com
 
----------------------------------------------------------------------------------------------------------------------
+# Steps
+
 #### 1. Download JAR: *`formatter-1.0.jar`*;
    下载JAR包`formatter-1.0.jar`；
 
@@ -22,6 +23,16 @@ Please contact by e-mail for any insightful feedbacks, feature requests and bugs
    双击`formatter-1.0.jar`即可运行工具。
 
 ![image](https://github.com/wisdomtool/formatter/blob/master/Image_1.png)
+
+# Donations
+
+如果 **Formatter** 工具对您帮助很大，并且您很愿意支持工具的后续开发和维护，您可以扫下方二维码随意打赏，就当是请我喝杯茶或是咖啡，将不胜感激。 ♥ 谢谢 ♥
+
+If the **Formatter** helps you a lot, and you would like to support this tool's further development and the continuous maintenance of this tool. You can sweep the following QR code free to donate me, which asked me to have a cup of tea or coffee. Your donation is highly appreciated. ♥ Thank you ♥ <br/>
+
+![Donate by pay)](https://github.com/wisdomtool/rest-client/blob/master/images/donate_pay.png)
+
+# Support
 
 [Toolkit Download     (工具包下载)](https://github.com/wisdomtool/formatter/blob/master/formatter-1.0.jar) 
 
