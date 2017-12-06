@@ -26,9 +26,9 @@ Please contact by e-mail for any insightful feedbacks, feature requests and bugs
 
 # Donations
 
-如果 **Formatter** 工具对您帮助很大，并且您很愿意支持工具的后续开发和维护，您可以扫下方二维码随意打赏，就当是请我喝杯茶或是咖啡，将不胜感激。 ♥ 谢谢 ♥
+如果 **Formatter** 工具对您帮助很大，并且您很愿意支持工具的后续开发和维护，您可以扫下方二维码随意打赏，就当是请我喝杯茶或是咖啡，将不胜感激。 **♥ 谢谢 ♥**
 
-If the **Formatter** helps you a lot, and you would like to support this tool's further development and the continuous maintenance of this tool. You can sweep the following QR code free to donate me, which asked me to have a cup of tea or coffee. Your donation is highly appreciated. ♥ Thank you ♥ <br/>
+If the **Formatter** helps you a lot, and you would like to support this tool's further development and the continuous maintenance of this tool. You can sweep the following QR code free to donate me, which asked me to have a cup of tea or coffee. Your donation is highly appreciated. **♥ Thank you ♥** <br/>
 
 ![Donate by pay](https://github.com/wisdomtool/rest-client/blob/master/images/donate_pay.png)
 
