@@ -14,6 +14,8 @@
 package org.wisdom.tool.gui;
 
 import java.awt.BorderLayout;
+import java.awt.Toolkit;
+import java.awt.datatransfer.StringSelection;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
@@ -33,7 +35,7 @@ import org.wisdom.tool.util.FormatUtil;
 * @ClassName: FormatTxtPanel 
 * @Description: Formatter text panel 
 * @Author: Dom Wang
-* @Email: wisdomtool@outlook.com 
+* @Email: witpool@outlook.com 
 * @Date: 2017-07-22 PM 10:42:57 
 * @version 1.0 
 */
@@ -177,9 +179,20 @@ public class FormatTxtPanel extends JPanel implements ActionListener
 
         if (FormatConst.COPY.equals(item.getName()))
         {
-            txtAra.selectAll();
-            txtAra.copy();
-            txtAra.select(0, 0);
+            StringSelection ss = null;
+            String seltxt = txtAra.getSelectedText();
+            if (StringUtils.isNotBlank(seltxt))
+            {
+                ss = new StringSelection(seltxt);
+            }
+            else
+            {
+                ss = new StringSelection(txtAra.getText());
+            }
+
+            Toolkit.getDefaultToolkit()
+                   .getSystemClipboard()
+                   .setContents(ss, null);
             return;
         }
 

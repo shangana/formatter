@@ -17,7 +17,7 @@ package org.wisdom.tool.model;
 * @ClassName: Charsets 
 * @Description: Charsets enum
 * @Author: Dom Wang
-* @Email: wisdomtool@outlook.com 
+* @Email: witpool@outlook.com 
 * @Date: 2017-07-22 PM 10:42:57 
 * @Version: 1.0 
 */

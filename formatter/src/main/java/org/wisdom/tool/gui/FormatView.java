@@ -26,7 +26,7 @@ import org.wisdom.tool.constant.FormatConst;
  * @ClassName: FormatView 
  * @Description: Formatter view frame
 *  @Author: Dom Wang
-*  @Email: wisdomtool@outlook.com
+*  @Email: witpool@outlook.com
  * @date 2017-07-22 PM 10:42:57  
  * @version 1.0 
  */

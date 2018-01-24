@@ -14,6 +14,8 @@
 package org.wisdom.tool.gui;
 
 import java.awt.Desktop;
+import java.awt.Toolkit;
+import java.awt.datatransfer.StringSelection;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.net.URI;
@@ -215,9 +217,20 @@ public class MenuBarView implements ActionListener
 
         if (FormatConst.COPY.equals(item.getName()))
         {
-            ta.selectAll();
-            ta.copy();
-            ta.select(0, 0);
+            StringSelection ss = null;
+            String seltxt = ta.getSelectedText();
+            if (StringUtils.isNotBlank(seltxt))
+            {
+                ss = new StringSelection(seltxt);
+            }
+            else
+            {
+                ss = new StringSelection(ta.getText());
+            }
+
+            Toolkit.getDefaultToolkit()
+                   .getSystemClipboard()
+                   .setContents(ss, null);
             return;
         }
 

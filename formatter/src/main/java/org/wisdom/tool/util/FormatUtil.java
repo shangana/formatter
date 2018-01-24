@@ -52,7 +52,7 @@ import net.htmlparser.jericho.SourceFormatter;
 * @ClassName: FormatUtil 
 * @Description: Format utility 
 * @Author: Dom Wang
-* @Email: wisdomtool@outlook.com 
+* @Email: witpool@outlook.com 
 * @Date: 2017-07-22 PM 10:42:57 
 * @Version: 1.0 
 */
@@ -143,6 +143,108 @@ public class FormatUtil
         }
 
         return false;
+    }
+
+    /**
+    * 
+    * @Title: prettyJson 
+    * @Description: Pretty JSON formatter 
+    * @param @param json
+    * @param @return 
+    * @return String
+    * @throws
+     */
+    public static String prettyJson(String json)
+    {
+        if (StringUtils.isBlank(json))
+        {
+            return StringUtils.EMPTY;
+        }
+        JsonParser jp = new JsonParser();
+        JsonElement je = jp.parse(json);
+        Gson gson = new GsonBuilder().serializeNulls().setPrettyPrinting().create();
+        String prettyJson = gson.toJson(je);
+        return prettyJson;
+    }
+
+    /**
+    * 
+    * @Title: prettyXml 
+    * @Description: Pretty XML formatter  
+    * @param @param xml
+    * @param @return 
+    * @return String
+    * @throws
+     */
+    public static String prettyXml(String xml)
+    {
+        XMLWriter xw = null;
+
+        if (StringUtils.isBlank(xml))
+        {
+            return StringUtils.EMPTY;
+        }
+
+        try
+        {
+            Document doc = DocumentHelper.parseText(xml);
+
+            // Format
+            OutputFormat format = OutputFormat.createPrettyPrint();
+            format.setEncoding(Charsets.UTF_8.getCname());
+            format.setIndentSize(FormatConst.INDENT_SIZE);
+
+            // Writer
+            StringWriter sw = new StringWriter();
+            xw = new XMLWriter(sw, format);
+            xw.write(doc);
+            return sw.toString();
+        }
+        catch(Exception e)
+        {
+            FormatView.getView().getStat().setText("Failed to format xml: " + e.getMessage());
+        } 
+        finally
+        {
+            close(xw);
+        }
+
+        return StringUtils.EMPTY;
+    }
+
+    /**
+    * 
+    * @Title: prettyHtml 
+    * @Description: Pretty HTML formatter   
+    * @param @param html
+    * @param @return 
+    * @return String
+    * @throws
+     */
+    public static String prettyHtml(String html)
+    {
+        if (StringUtils.isBlank(html))
+        {
+            return StringUtils.EMPTY;
+        }
+
+        try
+        {
+            // Writer
+            StringWriter sw = new StringWriter();
+            new SourceFormatter(new Source(html))
+            .setIndentString("    ")
+            .setTidyTags(true)
+            .setCollapseWhiteSpace(true)
+            .writeTo(sw);
+            return sw.toString();
+        }
+        catch(Exception e)
+        {
+            FormatView.getView().getStat().setText("Failed to format html: " + e.getMessage());
+        } 
+
+        return StringUtils.EMPTY;
     }
 
     /**

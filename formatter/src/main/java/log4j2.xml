@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="error" strict="true"> 
+    <Properties> 
+        <Property name="filename">log/formatter.log</Property> 
+    </Properties>  
+    <Appenders> 
+        <Console name="Console" target="SYSTEM_OUT"/>  
+        <RollingFile name="FORMATTER_APPEND" fileName="${filename}" append="true" filePattern="${filename}-%i.log"> 
+            <PatternLayout> 
+                <Pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}]-[%p]-[%l] %m%n</Pattern> 
+            </PatternLayout>  
+            <Policies> 
+                <SizeBasedTriggeringPolicy size="10 MB"/> 
+            </Policies>  
+            <DefaultRolloverStrategy max="5"/> 
+        </RollingFile> 
+    </Appenders>  
+    <Loggers> 
+        <Logger name="org.wisdom.tool" level="info" additivity="false"> 
+            <AppenderRef ref="FORMATTER_APPEND"/> 
+        </Logger>  
+        <Logger name="org.apache.commons" level="error" additivity="false"> 
+            <AppenderRef ref="FORMATTER_APPEND"/> 
+        </Logger>  
+        <Logger name="com.google.gson" level="error" additivity="false"> 
+            <AppenderRef ref="FORMATTER_APPEND"/> 
+        </Logger>  
+        <Root level="all"> 
+            <AppenderRef ref="FORMATTER_APPEND"/> 
+        </Root> 
+    </Loggers> 
+</Configuration>

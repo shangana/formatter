@@ -17,7 +17,7 @@ package org.wisdom.tool.constant;
 * @ClassName: FormatConst 
 * @Description: Format constants 
 * @Author: Dom Wang
-* @Email: wisdomtool@outlook.com 
+* @Email: witpool@outlook.com 
 * @Date: 2017-07-22 PM 10:42:57 
 * @version 1.0 
 */
@@ -31,7 +31,7 @@ public class FormatConst
 
     public final static String DONATION = WISDOM_TOOL + "help/wisdomtool.donate";
 
-    public static final String DONATE_ICON = WISDOM_TOOL + "image/donate_alipay.png";
+    public static final String DONATE_ICON = WISDOM_TOOL + "image/donate_pay.png";
     
     public static final String LOGO = WISDOM_TOOL + "image/logo.png";
 
@@ -79,5 +79,5 @@ public class FormatConst
 
     public static final String DONATE = "♥ Donate";
 
-    public static final String DONATE_BY_ALIPAY = "Donate by Alipay";
+    public static final String DONATE_BY_PAY = "Donate by Alipay or WeChat Pay";
 }

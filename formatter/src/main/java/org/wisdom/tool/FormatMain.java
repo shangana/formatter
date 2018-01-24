@@ -25,7 +25,7 @@ import org.wisdom.tool.util.FormatUtil;
  * @ClassName: FormatMain 
  * @Description: Formatter Main
  * @Author: Dom Wang
- * @Email: wisdomtool@outlook.com 
+ * @Email: witpool@outlook.com 
  * @date 2017-07-22 PM 10:42:57 
  * @version 1.0 
  */
