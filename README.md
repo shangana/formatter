@@ -9,7 +9,7 @@ Support formatted JSON, XML, HTML.
 Please contact by e-mail for any insightful feedbacks, feature requests and bugs.  
 
 **Author:** Dom Wang <br/>
-**E-mail:** witpool@outlook.com
+**E-mail:** wisdomtool@outlook.com
 
 # Steps
 
