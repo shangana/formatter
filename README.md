@@ -36,7 +36,7 @@ If the **Formatter** helps you a lot, and you would like to support this tool's 
 
 [Toolkit Download     (工具包下载)](https://github.com/wisdomtool/formatter/blob/master/formatter-1.0.jar) 
 
-[Source code download（源代码下载）](https://github.com/wisdomtool/formatter/blob/master/Formatter-V1.0.zip)
+[Source code download（源代码下载）](https://github.com/wisdomtool/formatter/tree/master/formatter)
 
 [Technical Exchange Group (技术交流QQ群)](https://github.com/wisdomtool/rest-client/blob/master/images/qq-group.png)<br/>
 ![Technical Exchange Group (技术交流QQ群)](https://github.com/wisdomtool/rest-client/blob/master/images/qq-group.png)
